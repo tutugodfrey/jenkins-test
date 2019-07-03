@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "CI/CD with jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutugodfrey/jenkins-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutugodfrey/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/tutugodfrey/jenkins-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
