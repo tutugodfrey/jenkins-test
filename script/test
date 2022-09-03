@@ -1,8 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
 # run the command below on the terminal before executing the script
 
 #chmod +x script/test
 ./node_modules/.bin/mocha ./test/test.js --exit
-
-
